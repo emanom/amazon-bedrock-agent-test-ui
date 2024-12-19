@@ -8,7 +8,7 @@ import boto3
 
 # Load environment variables from .env file
 load_dotenv()
-
+ 
 # Configure AWS session with default credentials
 session = boto3.Session(region_name='ap-southeast-2')
 
